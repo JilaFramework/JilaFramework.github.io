@@ -1,0 +1,28 @@
+.repos {
+  @include outer-container;
+
+  .repo {
+    @include span-columns(12);
+    text-align: center;
+
+    @include media($medium-screen) {
+      @include span-columns(6);
+    }
+
+    .screenshot {
+      height: 350px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      position: relative;
+
+      &.backend {
+        background-image: url(/images/backend.jpg);
+      }
+
+      &.mobile {
+        background-image: url(/images/yawuru-nganga-home.jpg);
+      }
+    }
+  }
+}

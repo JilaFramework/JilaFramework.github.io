@@ -1,0 +1,66 @@
+@import "normalize";
+@import "bourbon";
+@import "base/base";
+@import "neat";
+@import "hero";
+@import "app";
+@import "repos";
+
+#main-content {
+  margin: 8px;
+}
+
+header.line-behind {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  border-bottom: 2px solid $light-gray;
+  margin-bottom: 1.5em;
+
+  .title {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    padding: 0 10px;
+    background-color: white;
+    position: relative;
+    top: 0.6em;
+  }
+}
+
+section {
+  margin-bottom: 30px;
+
+  .content {
+    text-align: center;
+  }
+
+  .logos {
+    @include outer-container;
+    text-align: center;
+
+    .logo {
+      @include span-columns(12);
+
+      @include media($medium-screen) {
+        @include span-columns(6);
+      }
+
+      img {
+        width: 90%;
+      }
+    }
+  }
+}
+
+footer {
+  background-color: $dark-gray;
+  color: $contrast-font-color;
+  text-align: center;
+  font-size: 0.8em;
+  line-height: 1.5em;
+  height: 1.5em;
+}
+
+.platform, .repo {
+  margin-bottom: 20px;
+}
