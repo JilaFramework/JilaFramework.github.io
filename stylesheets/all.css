@@ -1,0 +1,829 @@
+/*! normalize.css v2.0.1 | MIT License | git.io/normalize */
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+/*
+ * Corrects `block` display not defined in IE 8/9.
+ */
+/* line 12, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block; }
+
+/*
+ * Corrects `inline-block` display not defined in IE 8/9.
+ */
+/* line 30, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_normalize.scss */
+audio,
+canvas,
+video {
+  display: inline-block; }
+
+/*
+ * Prevents modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+/* line 41, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/*
+ * Addresses styling for `hidden` attribute not present in IE 8/9.
+ */
+/* line 50, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_normalize.scss */
+[hidden] {
+  display: none; }
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+/*
+ * 1. Sets default font family to sans-serif.
+ * 2. Prevents iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+/* line 64, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_normalize.scss */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */ }
+
+/*
+ * Removes default margin.
+ */
+/* line 74, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_normalize.scss */
+body {
+  margin: 0; }
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+/*
+ * Addresses `outline` inconsistency between Chrome and other browsers.
+ */
+/* line 86, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_normalize.scss */
+a:focus {
+  outline: thin dotted; }
+
+/*
+ * Improves readability when focused and also mouse hovered in all browsers.
+ */
+/* line 94, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_normalize.scss */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* ==========================================================================
+   Typography
+   ========================================================================== */
+/*
+ * Addresses `h1` font sizes within `section` and `article` in Firefox 4+,
+ * Safari 5, and Chrome.
+ */
+/* line 108, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_normalize.scss */
+h1 {
+  font-size: 2em; }
+
+/*
+ * Addresses styling not present in IE 8/9, Safari 5, and Chrome.
+ */
+/* line 116, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/*
+ * Addresses style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
+ */
+/* line 124, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_normalize.scss */
+b,
+strong {
+  font-weight: bold; }
+
+/*
+ * Addresses styling not present in Safari 5 and Chrome.
+ */
+/* line 133, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_normalize.scss */
+dfn {
+  font-style: italic; }
+
+/*
+ * Addresses styling not present in IE 8/9.
+ */
+/* line 141, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/*
+ * Corrects font family set oddly in Safari 5 and Chrome.
+ */
+/* line 151, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_normalize.scss */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em; }
+
+/*
+ * Improves readability of pre-formatted text in all browsers.
+ */
+/* line 163, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_normalize.scss */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+/*
+ * Sets consistent quote types.
+ */
+/* line 173, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_normalize.scss */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019"; }
+
+/*
+ * Addresses inconsistent and variable font size in all browsers.
+ */
+/* line 181, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_normalize.scss */
+small {
+  font-size: 80%; }
+
+/*
+ * Prevents `sub` and `sup` affecting `line-height` in all browsers.
+ */
+/* line 189, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 197, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_normalize.scss */
+sup {
+  top: -0.5em; }
+
+/* line 201, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_normalize.scss */
+sub {
+  bottom: -0.25em; }
+
+/* ==========================================================================
+   Embedded content
+   ========================================================================== */
+/*
+ * Removes border when inside `a` element in IE 8/9.
+ */
+/* line 213, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_normalize.scss */
+img {
+  border: 0; }
+
+/*
+ * Corrects overflow displayed oddly in IE 9.
+ */
+/* line 221, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* ==========================================================================
+   Figures
+   ========================================================================== */
+/*
+ * Addresses margin not present in IE 8/9 and Safari 5.
+ */
+/* line 233, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_normalize.scss */
+figure {
+  margin: 0; }
+
+/* ==========================================================================
+   Forms
+   ========================================================================== */
+/*
+ * Define consistent border, margin, and padding.
+ */
+/* line 245, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/*
+ * 1. Corrects color not being inherited in IE 8/9.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+/* line 256, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_normalize.scss */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/*
+ * 1. Corrects font family not being inherited in all browsers.
+ * 2. Corrects font size not being inherited in all browsers.
+ * 3. Addresses margins set differently in Firefox 4+, Safari 5, and Chrome
+ */
+/* line 267, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_normalize.scss */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 2 */
+  margin: 0;
+  /* 3 */ }
+
+/*
+ * Addresses Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+/* line 281, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_normalize.scss */
+button,
+input {
+  line-height: normal; }
+
+/*
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Corrects inability to style clickable `input` types in iOS.
+ * 3. Improves usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+/* line 294, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_normalize.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */ }
+
+/*
+ * Re-set default cursor for disabled elements.
+ */
+/* line 306, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_normalize.scss */
+button[disabled],
+input[disabled] {
+  cursor: default; }
+
+/*
+ * 1. Addresses box sizing set to `content-box` in IE 8/9.
+ * 2. Removes excess padding in IE 8/9.
+ */
+/* line 316, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/*
+ * 1. Addresses `appearance` set to `searchfield` in Safari 5 and Chrome.
+ * 2. Addresses `box-sizing` set to `border-box` in Safari 5 and Chrome
+ *    (include `-moz` to future-proof).
+ */
+/* line 328, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box; }
+
+/*
+ * Removes inner padding and search cancel button in Safari 5 and Chrome
+ * on OS X.
+ */
+/* line 340, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_normalize.scss */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/*
+ * Removes inner padding and border in Firefox 4+.
+ */
+/* line 349, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_normalize.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/*
+ * 1. Removes default vertical scrollbar in IE 8/9.
+ * 2. Improves readability and alignment in all browsers.
+ */
+/* line 360, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_normalize.scss */
+textarea {
+  overflow: auto;
+  /* 1 */
+  vertical-align: top;
+  /* 2 */ }
+
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+/*
+ * Remove most spacing between table cells.
+ */
+/* line 373, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 1, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/base/_buttons.scss */
+button, input[type="button"], input[type="reset"], input[type="submit"],
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  -webkit-font-smoothing: antialiased;
+  background-color: #477dca;
+  border-radius: 3px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 1em;
+  font-weight: 600;
+  line-height: 1;
+  padding: 0.75em 1em;
+  text-decoration: none;
+  user-select: none;
+  vertical-align: middle;
+  white-space: nowrap; }
+  /* line 21, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/base/_buttons.scss */
+  button:hover, button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus,
+  button:hover,
+  button:focus {
+    background-color: #2c5999;
+    color: #fff; }
+  /* line 27, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/base/_buttons.scss */
+  button:disabled, input[type="button"]:disabled, input[type="reset"]:disabled, input[type="submit"]:disabled,
+  button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5; }
+
+/* line 1, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/base/_forms.scss */
+fieldset {
+  background-color: #f7f7f7;
+  border: 1px solid #ddd;
+  margin: 0 0 0.75em;
+  padding: 1.5em; }
+
+/* line 8, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/base/_forms.scss */
+input,
+label,
+select {
+  display: block;
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 1em; }
+
+/* line 16, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/base/_forms.scss */
+label {
+  font-weight: 600;
+  margin-bottom: 0.375em; }
+  /* line 20, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/base/_forms.scss */
+  label.required::after {
+    content: "*"; }
+  /* line 24, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/base/_forms.scss */
+  label abbr {
+    display: none; }
+
+/* line 29, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/base/_forms.scss */
+input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], textarea,
+select[multiple=multiple],
+textarea {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
+  box-sizing: border-box;
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 1em;
+  margin-bottom: 0.75em;
+  padding: 0.5em;
+  transition: border-color;
+  width: 100%; }
+  /* line 44, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/base/_forms.scss */
+  input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="email"]:hover, input[type="month"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="time"]:hover, input[type="url"]:hover, input[type="week"]:hover, textarea:hover,
+  select[multiple=multiple]:hover,
+  textarea:hover {
+    border-color: #c4c4c4; }
+  /* line 48, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/base/_forms.scss */
+  input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, textarea:focus,
+  select[multiple=multiple]:focus,
+  textarea:focus {
+    border-color: #477dca;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(55, 112, 192, 0.7);
+    outline: none; }
+
+/* line 55, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/base/_forms.scss */
+textarea {
+  resize: vertical; }
+
+/* line 59, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/base/_forms.scss */
+input[type="search"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none; }
+
+/* line 63, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/base/_forms.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  display: inline;
+  margin-right: 0.375em; }
+
+/* line 69, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/base/_forms.scss */
+input[type="file"] {
+  padding-bottom: 0.75em;
+  width: 100%; }
+
+/* line 74, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/base/_forms.scss */
+select {
+  margin-bottom: 1.5em;
+  max-width: 100%;
+  width: auto; }
+
+/* line 1, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/base/_lists.scss */
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+/* line 20, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/base/_lists.scss */
+dl {
+  margin-bottom: 0.75em; }
+  /* line 23, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/base/_lists.scss */
+  dl dt {
+    font-weight: bold;
+    margin-top: 0.75em; }
+  /* line 28, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/base/_lists.scss */
+  dl dd {
+    margin: 0; }
+
+/* line 1, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/base/_tables.scss */
+table {
+  -webkit-font-feature-settings: "kern", "liga", "tnum";
+  -moz-font-feature-settings: "kern", "liga", "tnum";
+  -ms-font-feature-settings: "kern", "liga", "tnum";
+  font-feature-settings: "kern", "liga", "tnum";
+  border-collapse: collapse;
+  margin: 0.75em 0;
+  table-layout: fixed;
+  width: 100%; }
+
+/* line 9, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/base/_tables.scss */
+th {
+  border-bottom: 1px solid #b7b7b7;
+  font-weight: 600;
+  padding: 0.75em 0;
+  text-align: left; }
+
+/* line 16, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/base/_tables.scss */
+td {
+  border-bottom: 1px solid #ddd;
+  padding: 0.75em 0; }
+
+/* line 21, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/base/_tables.scss */
+tr,
+td,
+th {
+  vertical-align: middle; }
+
+/* line 1, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/base/_typography.scss */
+body {
+  -webkit-font-feature-settings: "kern", "liga", "pnum";
+  -moz-font-feature-settings: "kern", "liga", "pnum";
+  -ms-font-feature-settings: "kern", "liga", "pnum";
+  font-feature-settings: "kern", "liga", "pnum";
+  -webkit-font-smoothing: antialiased;
+  color: #333;
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 1em;
+  line-height: 1.5; }
+
+/* line 10, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/base/_typography.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Helvetica Neue", "Helvetica", "Roboto", "Arial", sans-serif;
+  font-size: 1em;
+  line-height: 1.2;
+  margin: 0 0 0.75em; }
+
+/* line 22, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/base/_typography.scss */
+p {
+  margin: 0 0 0.75em; }
+
+/* line 26, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/base/_typography.scss */
+a {
+  color: #477dca;
+  text-decoration: none;
+  transition: color 0.1s linear; }
+  /* line 31, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/base/_typography.scss */
+  a:active, a:focus, a:hover {
+    color: #2c5999; }
+  /* line 37, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/base/_typography.scss */
+  a:active, a:focus {
+    outline: none; }
+
+/* line 43, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/base/_typography.scss */
+hr {
+  border-bottom: 1px solid #ddd;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  margin: 1.5em 0; }
+
+/* line 51, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/base/_typography.scss */
+img,
+picture {
+  margin: 0;
+  max-width: 100%; }
+
+/* line 4, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/bower_components/neat/app/assets/stylesheets/grid/_box-sizing.scss */
+html {
+  box-sizing: border-box; }
+
+/* line 9, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/bower_components/neat/app/assets/stylesheets/grid/_box-sizing.scss */
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+/* line 3, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_hero.scss */
+.hero {
+  background: -webkit-linear-gradient(10deg, rgba(50, 0, 0, 0.75), rgba(0, 0, 0, 0.25)), url("/images/hero.png"), no-repeat rgba(0, 0, 0, 0.25) scroll;
+  background: linear-gradient(10deg, rgba(50, 0, 0, 0.75), rgba(0, 0, 0, 0.25)), url("/images/hero.png"), no-repeat rgba(0, 0, 0, 0.25) scroll;
+  background-color: #324766;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 3em; }
+  /* line 19, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_hero.scss */
+  .hero .hero-logo img {
+    height: 4em;
+    margin-bottom: 1em; }
+  /* line 24, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_hero.scss */
+  .hero .hero-inner {
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto;
+    padding: 3.5em;
+    text-align: center; }
+    /* line 20, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/bower_components/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
+    .hero .hero-inner::after {
+      clear: both;
+      content: "";
+      display: table; }
+    /* line 20, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/bower_components/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
+    .hero .hero-inner::after {
+      clear: both;
+      content: "";
+      display: table; }
+    /* line 31, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_hero.scss */
+    .hero .hero-inner .hero-copy {
+      text-align: center; }
+      /* line 34, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_hero.scss */
+      .hero .hero-inner .hero-copy h1 {
+        color: white;
+        font-size: 2.0em;
+        margin-bottom: 0.5em; }
+        @media screen and (min-width: 53.75em) {
+          /* line 34, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_hero.scss */
+          .hero .hero-inner .hero-copy h1 {
+            font-size: 2.5em; } }
+      /* line 44, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_hero.scss */
+      .hero .hero-inner .hero-copy p {
+        color: white;
+        line-height: 1.4em;
+        font-size: 1.1em;
+        margin: 0 auto 3em auto; }
+        @media screen and (min-width: 53.75em) {
+          /* line 44, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_hero.scss */
+          .hero .hero-inner .hero-copy p {
+            font-size: 1.3em;
+            max-width: 60%; } }
+
+/* line 3, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_app.scss */
+.apps {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  /* line 20, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/bower_components/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
+  .apps::after {
+    clear: both;
+    content: "";
+    display: table; }
+  /* line 6, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_app.scss */
+  .apps .app {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    text-align: center; }
+    /* line 89, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/bower_components/neat/app/assets/stylesheets/grid/_span-columns.scss */
+    .apps .app:last-child {
+      margin-right: 0; }
+    @media screen and (min-width: 40em) {
+      /* line 6, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_app.scss */
+      .apps .app {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 48.82117%; }
+        /* line 89, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/bower_components/neat/app/assets/stylesheets/grid/_span-columns.scss */
+        .apps .app:last-child {
+          margin-right: 0; } }
+    @media screen and (min-width: 53.75em) {
+      /* line 6, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_app.scss */
+      .apps .app {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 31.76157%; }
+        /* line 89, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/bower_components/neat/app/assets/stylesheets/grid/_span-columns.scss */
+        .apps .app:last-child {
+          margin-right: 0; } }
+    /* line 18, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_app.scss */
+    .apps .app .screenshot {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%;
+      height: 350px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center; }
+      /* line 89, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/bower_components/neat/app/assets/stylesheets/grid/_span-columns.scss */
+      .apps .app .screenshot:last-child {
+        margin-right: 0; }
+      /* line 25, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_app.scss */
+      .apps .app .screenshot.yawuru {
+        background-image: url(/images/yawuru-nganga-home.jpg); }
+      /* line 29, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_app.scss */
+      .apps .app .screenshot.miriwoong {
+        background-image: url(/images/miriwoong-home.jpg); }
+    /* line 34, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_app.scss */
+    .apps .app .platform {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 31.76157%;
+      height: 70px;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-position: center; }
+      /* line 89, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/bower_components/neat/app/assets/stylesheets/grid/_span-columns.scss */
+      .apps .app .platform:last-child {
+        margin-right: 0; }
+      /* line 41, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_app.scss */
+      .apps .app .platform:first-child {
+        margin-left: 17.05961%; }
+      /* line 45, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_app.scss */
+      .apps .app .platform.ios {
+        background-image: url(/images/ios.svg); }
+      /* line 49, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_app.scss */
+      .apps .app .platform.android {
+        background-image: url(/images/android.png); }
+
+/* line 1, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_repos.scss */
+.repos {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto; }
+  /* line 20, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/bower_components/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
+  .repos::after {
+    clear: both;
+    content: "";
+    display: table; }
+  /* line 4, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_repos.scss */
+  .repos .repo {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+    text-align: center; }
+    /* line 89, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/bower_components/neat/app/assets/stylesheets/grid/_span-columns.scss */
+    .repos .repo:last-child {
+      margin-right: 0; }
+    @media screen and (min-width: 40em) {
+      /* line 4, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_repos.scss */
+      .repos .repo {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 48.82117%; }
+        /* line 89, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/bower_components/neat/app/assets/stylesheets/grid/_span-columns.scss */
+        .repos .repo:last-child {
+          margin-right: 0; } }
+    /* line 12, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_repos.scss */
+    .repos .repo .screenshot {
+      height: 350px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+      position: relative; }
+      /* line 19, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_repos.scss */
+      .repos .repo .screenshot.backend {
+        background-image: url(/images/backend.jpg); }
+      /* line 23, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_repos.scss */
+      .repos .repo .screenshot.mobile {
+        background-image: url(/images/yawuru-nganga-home.jpg); }
+
+/* line 9, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
+#main-content {
+  margin: 8px; }
+
+/* line 13, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
+header.line-behind {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  border-bottom: 2px solid #ddd;
+  margin-bottom: 1.5em; }
+  /* line 20, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
+  header.line-behind .title {
+    font-size: 1.2em;
+    text-transform: uppercase;
+    padding: 0 10px;
+    background-color: white;
+    position: relative;
+    top: 0.6em; }
+
+/* line 30, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
+section {
+  margin-bottom: 30px; }
+  /* line 33, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
+  section .content {
+    text-align: center; }
+  /* line 37, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
+  section .logos {
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; }
+    /* line 20, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/bower_components/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
+    section .logos::after {
+      clear: both;
+      content: "";
+      display: table; }
+    /* line 41, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
+    section .logos .logo {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 100%; }
+      /* line 89, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/bower_components/neat/app/assets/stylesheets/grid/_span-columns.scss */
+      section .logos .logo:last-child {
+        margin-right: 0; }
+      @media screen and (min-width: 40em) {
+        /* line 41, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
+        section .logos .logo {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 48.82117%; }
+          /* line 89, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/bower_components/neat/app/assets/stylesheets/grid/_span-columns.scss */
+          section .logos .logo:last-child {
+            margin-right: 0; } }
+      /* line 48, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
+      section .logos .logo img {
+        width: 90%; }
+
+/* line 55, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
+footer {
+  background-color: #333;
+  color: #ddd;
+  text-align: center;
+  font-size: 0.8em;
+  line-height: 1.5em;
+  height: 1.5em; }
+
+/* line 64, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
+.platform, .repo {
+  margin-bottom: 20px; }
