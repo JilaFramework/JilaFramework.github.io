@@ -9,21 +9,21 @@
 #main-content
   %section
     %header.line-behind
-      %span.title What is Jila?
+      %h2.title What is Jila?
     .content
       %p Jila began as the core of Yawuru Ngan-ga, a language app from the Yawuru community of Broome, Western Australia. From there the team transformed it into an almost turnkey solution for communities who want to create their own language applications without requiring a large financial outlay, or a team of developers to maintain the content.
       %p The framework consists of two components, a cloud-ready administration console for the curation of the dictionary and content, and a cross-platform mobile application built using Apache Cordova. More information can be found on their respective Github repositories. 
     .repos
-      %a.repo{href: 'https://github.com/JilaFramework/jila-backend'}
-        .name Backend
-        .screenshot.backend
-      %a.repo{href: 'https://github.com/JilaFramework/jila-mobile'}
-        .name Mobile
-        .screenshot.mobile
+      .repo
+        %h3.name Admin Console
+        %a.screenshot.backend{href: 'https://github.com/JilaFramework/jila-backend'}
+      .repo
+        %h3.name Mobile
+        %a.screenshot.mobile{href: 'https://github.com/JilaFramework/jila-mobile'}
 
   %section
     %header.line-behind
-      %sectionpan.title Who is behind Jila?
+      %h2.title Who is behind Jila?
     .content
       %p Jila is proudly brought to you by ThoughtWorks and the Yawuru community of Broome.
     .logos
@@ -35,18 +35,18 @@
 
   %section
     %header.line-behind
-      %span.title Who is using it?
+      %h2.title Who is using it?
     .content
-      %p The following apps were created using the Jila framework. If you're involved with another project using Jila please let us know.
+      %p The following apps were created using the Jila framework.
     .apps
       .app
-        .name Yawuru Ngan-ga
+        %h3.name Yawuru Ngan-ga
         .screenshot.yawuru
         .platforms
           %a.platform.android{href: 'https://play.google.com/store/apps/details?id=org.jila.yawuru'}
           %a.platform.ios{href: 'https://itunes.apple.com/au/app/yawuru-ngan-ga/id937162422?mt=8'}
       .app
-        .name Miriwoong Mobile
+        %h3.name Miriwoong Mobile
         .screenshot.miriwoong
         .platforms
           %a.platform.android{href: 'https://play.google.com/store/apps/details?id=au.org.mirima.miriwoong.mobile'}
@@ -55,7 +55,7 @@
 
   %section
     %header.line-behind
-      %span.title How do I get involved?
+      %h2.title How do I get involved?
     .content
       %p Fork the repositories and have a go at building your own version of the app! If you publish any apps based on the framework please let us know. 
       %p If you make any enhancements or additions to the framework we'd really appreciate if you're able to submit them as pull requests. That way all of the communities building apps based on Jila can benefit collectively.

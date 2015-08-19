@@ -1,9 +1,10 @@
 // Typography
-$base-font-family: $helvetica;
-$heading-font-family: $base-font-family;
+$base-font-family: 'Open Sans';
+$heading-font-family: 'Shadows Into Light', $base-font-family;
 
 // Font Sizes
 $base-font-size: 1em;
+$heading-font-size: 1.2em;
 
 // Line height
 $base-line-height: 1.5;
@@ -37,3 +38,5 @@ $form-box-shadow-focus: $form-box-shadow, 0 0 5px adjust-color($action-color, $l
 
 $large-screen: em(860) !default;
 $medium-screen: em(640) !default;
+
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light|Open+Sans:300);

@@ -6,15 +6,20 @@
     text-align: center;
 
     @include media($medium-screen) {
-      @include span-columns(6);
+      @include span-columns(5);
+      
+      &:first-child {
+        @include shift(1);
+      }
     }
 
     .screenshot {
       height: 350px;
       background-size: contain;
       background-repeat: no-repeat;
-      background-position: center;
+      background-position: center 0;
       position: relative;
+      display: block;
 
       &.backend {
         background-image: url(/images/backend.jpg);
