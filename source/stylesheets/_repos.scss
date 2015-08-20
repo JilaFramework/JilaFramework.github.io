@@ -15,18 +15,9 @@
 
     .screenshot {
       height: 350px;
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-position: center 0;
-      position: relative;
-      display: block;
 
-      &.backend {
-        background-image: url(/images/backend.jpg);
-      }
-
-      &.mobile {
-        background-image: url(/images/jila-home.jpg);
+      img {
+        max-height: 100%;
       }
     }
   }
