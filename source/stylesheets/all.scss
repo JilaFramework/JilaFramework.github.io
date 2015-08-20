@@ -3,6 +3,7 @@
 @import "base/base";
 @import "neat";
 @import "hero";
+@import "logos";
 @import "app";
 @import "repos";
 
@@ -33,23 +34,6 @@ section {
 
   .content {
     text-align: center;
-  }
-
-  .logos {
-    @include outer-container;
-    text-align: center;
-
-    .logo {
-      @include span-columns(12);
-
-      @include media($medium-screen) {
-        @include span-columns(6);
-      }
-
-      img {
-        width: 90%;
-      }
-    }
   }
 }
 

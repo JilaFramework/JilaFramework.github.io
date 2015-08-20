@@ -1,0 +1,16 @@
+.logos {
+  @include outer-container;
+  text-align: center;
+
+  .logo {
+    @include span-columns(12);
+
+    @include media($medium-screen) {
+      @include span-columns(6);
+    }
+
+    img {
+      width: 90%;
+    }
+  }
+}
