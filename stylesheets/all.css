@@ -630,6 +630,40 @@ html {
             font-size: 1.3em;
             max-width: 60%; } }
 
+/* line 1, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_logos.scss */
+.logos {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center; }
+  /* line 20, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/bower_components/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
+  .logos::after {
+    clear: both;
+    content: "";
+    display: table; }
+  /* line 5, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_logos.scss */
+  .logos .logo {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%; }
+    /* line 89, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/bower_components/neat/app/assets/stylesheets/grid/_span-columns.scss */
+    .logos .logo:last-child {
+      margin-right: 0; }
+    @media screen and (min-width: 40em) {
+      /* line 5, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_logos.scss */
+      .logos .logo {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 48.82117%; }
+        /* line 89, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/bower_components/neat/app/assets/stylesheets/grid/_span-columns.scss */
+        .logos .logo:last-child {
+          margin-right: 0; } }
+    /* line 12, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_logos.scss */
+    .logos .logo img {
+      width: 90%; }
+
 /* line 3, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_app.scss */
 .apps {
   max-width: 68em;
@@ -747,31 +781,23 @@ html {
           margin-left: 8.5298%; } }
     /* line 16, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_repos.scss */
     .repos .repo .screenshot {
-      height: 350px;
-      background-size: contain;
-      background-repeat: no-repeat;
-      background-position: center 0;
-      position: relative;
-      display: block; }
-      /* line 24, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_repos.scss */
-      .repos .repo .screenshot.backend {
-        background-image: url(/images/backend.jpg); }
-      /* line 28, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_repos.scss */
-      .repos .repo .screenshot.mobile {
-        background-image: url(/images/jila-home.jpg); }
+      height: 350px; }
+      /* line 19, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_repos.scss */
+      .repos .repo .screenshot img {
+        max-height: 100%; }
 
-/* line 9, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
+/* line 10, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
 #main-content {
   margin: 8px; }
 
-/* line 13, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
+/* line 14, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
 header.line-behind {
   width: 90%;
   margin: auto;
   text-align: center;
   border-bottom: 2px solid #ddd;
   margin-bottom: 1.5em; }
-  /* line 20, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
+  /* line 21, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
   header.line-behind .title {
     display: inline-block;
     font-size: 1.2em;
@@ -781,47 +807,14 @@ header.line-behind {
     background-color: white;
     position: relative; }
 
-/* line 31, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
+/* line 32, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
 section {
   margin-bottom: 30px; }
-  /* line 34, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
+  /* line 35, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
   section .content {
     text-align: center; }
-  /* line 38, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
-  section .logos {
-    max-width: 68em;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center; }
-    /* line 20, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/bower_components/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
-    section .logos::after {
-      clear: both;
-      content: "";
-      display: table; }
-    /* line 42, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
-    section .logos .logo {
-      float: left;
-      display: block;
-      margin-right: 2.35765%;
-      width: 100%; }
-      /* line 89, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/bower_components/neat/app/assets/stylesheets/grid/_span-columns.scss */
-      section .logos .logo:last-child {
-        margin-right: 0; }
-      @media screen and (min-width: 40em) {
-        /* line 42, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
-        section .logos .logo {
-          float: left;
-          display: block;
-          margin-right: 2.35765%;
-          width: 48.82117%; }
-          /* line 89, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/bower_components/neat/app/assets/stylesheets/grid/_span-columns.scss */
-          section .logos .logo:last-child {
-            margin-right: 0; } }
-      /* line 49, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
-      section .logos .logo img {
-        width: 90%; }
 
-/* line 56, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
+/* line 40, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
 footer {
   background-color: #333;
   color: #ddd;
@@ -830,6 +823,6 @@ footer {
   line-height: 1.5em;
   height: 1.5em; }
 
-/* line 65, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
+/* line 49, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
 .platform, .repo {
   margin-bottom: 20px; }
