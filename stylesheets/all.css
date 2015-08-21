@@ -860,25 +860,28 @@ footer {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 65.88078%;
-      margin-left: 17.05961%; }
+      width: 48.82117%;
+      margin-left: 25.58941%; }
       /* line 89, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/bower_components/neat/app/assets/stylesheets/grid/_span-columns.scss */
       .setup-steps:last-child {
         margin-right: 0; } }
   /* line 69, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
   .setup-steps ol {
     counter-reset: item; }
-    /* line 72, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
-    .setup-steps ol li:before {
-      width: 30px;
-      display: inline-block;
-      content: counter(item) ".  ";
-      counter-increment: item;
-      font-family: "Shadows Into Light", "Open Sans";
-      font-size: 1.2em;
-      font-weight: bold; }
+    /* line 71, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
+    .setup-steps ol li {
+      font-size: 0.9em; }
+      /* line 73, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
+      .setup-steps ol li:before {
+        width: 30px;
+        display: inline-block;
+        content: counter(item) ".  ";
+        counter-increment: item;
+        font-family: "Shadows Into Light", "Open Sans";
+        font-size: 1.2em;
+        font-weight: bold; }
 
-/* line 85, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
+/* line 86, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
 .request {
   clear: both;
   font-weight: bold; }
