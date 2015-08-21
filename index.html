@@ -28,24 +28,65 @@
         </header>
         <div class='content'>
           <p>Jila began as the core of Yawuru Ngan-ga, a language app from the Yawuru community of Broome, Western Australia. From there the team transformed it into an almost turnkey solution for communities wanting to create their own language applications without requiring a large financial outlay, or a team of developers to maintain the content.</p>
-          <p>The framework consists of two components, a cloud-ready administration console for the curation of the dictionary and content, and a cross-platform mobile application. More information can be found in their respective GitHub repositories.</p>
+          <p>The framework consists of two components, a cross-platform mobile application and a cloud-ready administration console.</p>
         </div>
         <div class='repos'>
           <div class='repo'>
-            <h3 class='name'>Admin Console</h3>
-            <a href='https://github.com/JilaFramework/jila-backend' title='Link to Jila admin console repository on GitHub'>
-              <div class='screenshot'>
-                <img alt='Admin console screenshot' class='backend' src='/images/backend.jpg'>
+            <h3 class='name'>Mobile (Click to Demo)</h3>
+            <a href='http://bit.ly/jilaframework-web' title='Link to Jila web demo'>
+              <div class='screenshot mobile'>
+                <img alt='Jila mobile app screenshot' src='/images/jila-home.jpg'>
               </div>
             </a>
+            <ul class='features'>
+              <li>
+                <strong>Explore</strong>
+                words and phrases by category or letter
+              </li>
+              <li>
+                <strong>Learn</strong>
+                the language through simple word, audio and picture games
+              </li>
+              <li>
+                Access everything wherever you are, even
+                <strong>offline</strong>
+              </li>
+              <li>
+                Kickstart your experience with useful
+                <strong>common phrases</strong>
+              </li>
+              <li>
+                <strong>Search</strong>
+                for words in the dictionary
+              </li>
+            </ul>
           </div>
           <div class='repo'>
-            <h3 class='name'>Mobile</h3>
-            <a href='https://github.com/JilaFramework/jila-mobile' title='Link to Jila mobile app repository on GitHub'>
-              <div class='screenshot'>
-                <img alt='Jila mobile app screenshot' class='mobile' src='/images/jila-home.jpg'>
+            <h3 class='name'>Admin Console (Click to Demo)</h3>
+            <a href='http://bit.ly/jilaframework-backend' title='Link to Jila admin console demo'>
+              <div class='screenshot backend'>
+                <img alt='Admin console screenshot' src='/images/backend.jpg'>
               </div>
             </a>
+            <ul class='features'>
+              <li>
+                <strong>Manage</strong>
+                your dictionary of terms, translations and categories
+              </li>
+              <li>
+                <strong>Control</strong>
+                what content is published to the app so you can release at your pace
+              </li>
+              <li>
+                Upload
+                <strong>images and audio</strong>
+                to enrich entries
+              </li>
+              <li>
+                <strong>User management</strong>
+                to control who can manage your content
+              </li>
+            </ul>
           </div>
         </div>
       </section>
@@ -96,8 +137,32 @@
           <h2 class='title'>How do I get involved?</h2>
         </header>
         <div class='content'>
-          <p>Fork the repositories and have a go at building your own version of the app! If you publish any apps based on the framework please let us know.</p>
-          <p>If you make any enhancements or additions to the framework we'd really appreciate if you're able to submit them as pull requests. That way all of the communities building apps based on Jila can benefit collectively.</p>
+          <p>It'll require a developer to get started, but the number of steps required to have your own app up and running is pretty short:</p>
+          <div class='setup-steps'>
+            <ol>
+              <li>
+                Fork the repositories from GitHub
+                <a href='https://github.com/JilaFramework/jila-mobile' title='Link to Jila mobile app repository on GitHub'>HERE</a>
+                and
+                <a href='https://github.com/JilaFramework/jila-backend' title='Link to Jila admin console repository on GitHub'>HERE</a>
+              </li>
+              <li>Customise the look and feel for your community or organisation</li>
+              <li>
+                Setup an account and bucket
+                <a href='https://aws.amazon.com/s3/' title='Link to Amazon S3'>Amazon S3</a>
+                for storing images and audio
+              </li>
+              <li>
+                Deploy the admin console to a hosting service like
+                <a href='http://www.heroku.com' title='Link to Heroku'>Heroku</a>
+              </li>
+              <li>Populate the dictionary through the admin console</li>
+              <li>Submit to the Apple and Google Play stores</li>
+              <li>Share with your community and beyond!</li>
+            </ol>
+          </div>
+          <div class='clear'></div>
+          <p class='request'>If you make any enhancements or additions to the framework we'd really appreciate if you're able to submit them as pull requests. That way all of the communities building apps based on Jila can benefit collectively.</p>
         </div>
       </section>
       <section>

@@ -746,58 +746,73 @@ html {
       .apps .app .platform.android {
         background-image: url(/images/android.png); }
 
-/* line 1, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_repos.scss */
+/* line 3, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_repos.scss */
 .repos {
   max-width: 68em;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  margin-top: 30px; }
   /* line 20, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/bower_components/bourbon/app/assets/stylesheets/addons/_clearfix.scss */
   .repos::after {
     clear: both;
     content: "";
     display: table; }
-  /* line 4, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_repos.scss */
+  /* line 8, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_repos.scss */
   .repos .repo {
     float: left;
     display: block;
     margin-right: 2.35765%;
     width: 100%;
-    text-align: center; }
+    text-align: center;
+    margin-bottom: 20px; }
     /* line 89, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/bower_components/neat/app/assets/stylesheets/grid/_span-columns.scss */
     .repos .repo:last-child {
       margin-right: 0; }
     @media screen and (min-width: 40em) {
-      /* line 4, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_repos.scss */
+      /* line 8, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_repos.scss */
       .repos .repo {
         float: left;
         display: block;
         margin-right: 2.35765%;
-        width: 40.29137%; }
+        width: 40.29137%;
+        margin-bottom: 30px; }
         /* line 89, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/bower_components/neat/app/assets/stylesheets/grid/_span-columns.scss */
         .repos .repo:last-child {
           margin-right: 0; }
-        /* line 11, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_repos.scss */
+        /* line 17, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_repos.scss */
         .repos .repo:first-child {
           margin-left: 8.5298%; } }
-    /* line 16, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_repos.scss */
+    /* line 22, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_repos.scss */
     .repos .repo .screenshot {
-      height: 350px; }
-      /* line 19, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_repos.scss */
+      height: 350px;
+      margin-bottom: 10px; }
+      /* line 26, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_repos.scss */
       .repos .repo .screenshot img {
         max-height: 100%; }
+    /* line 31, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/_repos.scss */
+    .repos .repo .features {
+      width: 90%;
+      margin: auto;
+      text-align: left;
+      font-size: 0.9em;
+      list-style: square; }
 
 /* line 10, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
 #main-content {
   margin: 8px; }
 
 /* line 14, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
+.clear {
+  clear: both; }
+
+/* line 18, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
 header.line-behind {
   width: 90%;
   margin: auto;
   text-align: center;
   border-bottom: 2px solid #ddd;
   margin-bottom: 1.5em; }
-  /* line 21, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
+  /* line 25, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
   header.line-behind .title {
     display: inline-block;
     font-size: 1.2em;
@@ -807,14 +822,14 @@ header.line-behind {
     background-color: white;
     position: relative; }
 
-/* line 32, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
+/* line 36, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
 section {
   margin-bottom: 30px; }
-  /* line 35, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
+  /* line 39, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
   section .content {
     text-align: center; }
 
-/* line 40, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
+/* line 44, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
 footer {
   background-color: #333;
   color: #ddd;
@@ -823,6 +838,47 @@ footer {
   line-height: 1.5em;
   height: 1.5em; }
 
-/* line 49, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
+/* line 53, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
 .platform, .repo {
   margin-bottom: 20px; }
+
+/* line 57, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
+.setup-steps {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 82.94039%;
+  margin-left: 8.5298%;
+  margin-bottom: 30px;
+  text-align: left; }
+  /* line 89, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/bower_components/neat/app/assets/stylesheets/grid/_span-columns.scss */
+  .setup-steps:last-child {
+    margin-right: 0; }
+  @media screen and (min-width: 40em) {
+    /* line 57, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
+    .setup-steps {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 65.88078%;
+      margin-left: 17.05961%; }
+      /* line 89, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/bower_components/neat/app/assets/stylesheets/grid/_span-columns.scss */
+      .setup-steps:last-child {
+        margin-right: 0; } }
+  /* line 69, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
+  .setup-steps ol {
+    counter-reset: item; }
+    /* line 72, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
+    .setup-steps ol li:before {
+      width: 30px;
+      display: inline-block;
+      content: counter(item) ".  ";
+      counter-increment: item;
+      font-family: "Shadows Into Light", "Open Sans";
+      font-size: 1.2em;
+      font-weight: bold; }
+
+/* line 85, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
+.request {
+  clear: both;
+  font-weight: bold; }
