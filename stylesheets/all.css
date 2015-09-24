@@ -829,20 +829,27 @@ section {
   section .content {
     text-align: center; }
 
-/* line 44, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
+/* line 45, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
 footer {
   background-color: #333;
   color: #ddd;
   text-align: center;
-  font-size: 0.8em;
-  line-height: 1.5em;
-  height: 1.5em; }
+  font-size: 0.7em;
+  height: 30px;
+  line-height: 30px; }
+  /* line 53, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
+  footer span {
+    vertical-align: middle; }
+  /* line 58, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
+  footer .heart {
+    color: #d9578b;
+    font-size: 1.6em; }
 
-/* line 53, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
+/* line 64, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
 .platform, .repo {
   margin-bottom: 20px; }
 
-/* line 57, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
+/* line 68, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
 .setup-steps {
   float: left;
   display: block;
@@ -855,7 +862,7 @@ footer {
   .setup-steps:last-child {
     margin-right: 0; }
   @media screen and (min-width: 40em) {
-    /* line 57, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
+    /* line 68, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
     .setup-steps {
       float: left;
       display: block;
@@ -865,13 +872,13 @@ footer {
       /* line 89, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/bower_components/neat/app/assets/stylesheets/grid/_span-columns.scss */
       .setup-steps:last-child {
         margin-right: 0; } }
-  /* line 69, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
+  /* line 80, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
   .setup-steps ol {
     counter-reset: item; }
-    /* line 71, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
+    /* line 82, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
     .setup-steps ol li {
       font-size: 0.9em; }
-      /* line 73, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
+      /* line 84, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
       .setup-steps ol li:before {
         width: 30px;
         display: inline-block;
@@ -881,7 +888,7 @@ footer {
         font-size: 1.2em;
         font-weight: bold; }
 
-/* line 86, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
+/* line 97, /Users/thenathanjones/Dropbox/Development/jila/JilaFramework.github.io/source/stylesheets/all.scss */
 .request {
   clear: both;
   font-weight: bold; }
